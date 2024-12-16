@@ -4,27 +4,19 @@ const ProfileLinks = () => {
   return (
     <ul className="flex flex-col gap-5">
       <li>
-        <ProfileButton href="https://github.com/BishoyGH/">
-          GitHub
-        </ProfileButton>
+        <ProfileButton href="#">GitHub</ProfileButton>
       </li>
       <li>
-        <ProfileButton href="https://www.frontendmentor.io/profile/BishoyGH">
-          Frontend Mentor
-        </ProfileButton>
+        <ProfileButton href="#">Frontend Mentor</ProfileButton>
       </li>
       <li>
-        <ProfileButton href="https://www.linkedin.com/in/bishoygamal/">
-          LinkedIn
-        </ProfileButton>
+        <ProfileButton href="#">LinkedIn</ProfileButton>
       </li>
       <li>
-        <ProfileButton href="https://x.com/">Twitter</ProfileButton>
+        <ProfileButton href="#">Twitter</ProfileButton>
       </li>
       <li>
-        <ProfileButton href="https://www.instagram.com/_bishoygh/">
-          Instagram
-        </ProfileButton>
+        <ProfileButton href="#">Instagram</ProfileButton>
       </li>
     </ul>
   );
